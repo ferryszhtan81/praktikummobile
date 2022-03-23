@@ -2,9 +2,9 @@ import java.util.Scanner
 fun main(){
     val masukkansuhu= Scanner(System.`in`)
     println("Waktu Sekarang:")
-    val waktu= readLine()!!
+    val waktu= readLine()
     println("Nama Anda:")
-    val nama= readLine()!!
+    val nama= readLine()
     println("Umur Anda:")
     val umur= Integer.valueOf(readLine())
     println("Suhu Tubuh Anda:")
